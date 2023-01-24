@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --menu-height: 69px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+body {
+    margin: 0; /* Reset applied default margin */
+    font-family: 'Jost', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+@font-face {
+    font-family: 'flood';
+    src: local("FloodStdRegular"),
+    url("./assets/fonts/FloodStdRegular.otf") format("opentype")
 }
 
-.App-link {
-  color: #61dafb;
+.row {
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+a,
+a:focus,
+a:hover,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+p {
+    font-size: 18px;
+    color: #00000099;
+    font-weight: 200;
+}
+
+.btn {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 21px 34px;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.btn--black {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+.btn--black:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.mb-3 {
+    margin-bottom: 30px;
+}
+
+.text-center{
+    text-align: center;
 }
