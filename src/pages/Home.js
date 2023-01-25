@@ -1,5 +1,5 @@
 import HomeStyles from './Home.module.css';
-import background from "../assets/img/home.jpeg"
+import background from "../assets/img/view.jpg"
 
 function Home() {
   return (

@@ -19,9 +19,10 @@
 .title {
     color: #fff;
     padding: 0px 15px;
-    font-size: 36px;
+    font-size: 42px;
     text-transform: uppercase;
     font-weight: 500;
+    font-family: "flood";
 }
 
 .main {
