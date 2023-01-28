@@ -57,6 +57,13 @@ p {
     font-size: 14px;
 }
 
+@media screen and (max-width: 900px) {
+    .btn {
+        padding: 15px 25px;
+        font-size: 12px;
+    }
+}
+
 .btn--black {
     color: #000;
     background-color: #fff;

@@ -25,3 +25,10 @@
     margin-bottom: 2rem;
 }
 
+
+@media screen and (max-width: 900px) {
+    .homeTitle {
+        font-size: 40px;
+    }
+}
+
