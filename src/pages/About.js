@@ -1,7 +1,7 @@
 import PageStyles from './Page.module.css';
-import background from "../assets/img/sauna.jpeg";
-import cabinImg from "../assets/img/cabin.jpeg";
-import deckImg from "../assets/img/deck.jpeg";
+import background from "../assets/img/view-2.jpg";
+import diningImg from "../assets/img/dining.jpg";
+import studyImg from "../assets/img/study.jpg";
 import { Link } from 'react-router-dom';
 
 
@@ -17,7 +17,7 @@ function About() {
     <main class={PageStyles.main}>
       <div className={`row ${PageStyles.columnHalf}`}>
           <div>
-              <img src={cabinImg} alt="" className={PageStyles.halfImg} />
+              <img src={diningImg} alt="" className={PageStyles.halfImg} />
           </div>
           <div>
             <h2 className={PageStyles.headingSecondary}>
@@ -54,7 +54,7 @@ function About() {
         </ul>
         </div>
         <div className="">
-          <img src={deckImg} alt="" className={`mb-3 ${PageStyles.halfImg}`}/>
+          <img src={studyImg} alt="" className={`mb-3 ${PageStyles.halfImg}`}/>
           <button className="btn btn--black">
             <Link to="/availability">
               Check availability

@@ -1,88 +1,91 @@
+import backyard from "../assets/img/backyard.jpg";
+import bathroom from "../assets/img/bathroom.jpg";
+import dining from "../assets/img/dining.jpg";
+import hall from "../assets/img/hall.jpg";
+import kitchen from "../assets/img/kitchen.jpg";
+import kitchen2 from "../assets/img/kitchen-2.jpg";
+import livingRoom from "../assets/img/living-room.jpg";
+import masterBedroom from "../assets/img/master-bedroom.jpg";
+import study from "../assets/img/study.jpg";
+import tvRoom from "../assets/img/tv-room.jpg";
+import tvRoom2 from "../assets/img/tv-room-2.jpg";
+import view from "../assets/img/view.jpg";
+import view2 from "../assets/img/view-2.jpg";
+import view3 from "../assets/img/view-3.jpg";
+
+
 export const Photos = [
     {
-      src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-      width: 4,
-      height: 3
+      src: backyard,
+      width: 1875,
+      height: 1250,
+      title: "backyard"
     },
     {
-      src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-      width: 1,
-      height: 1
+      src: bathroom,
+      width: 1875,
+      height: 1250
     },
     {
-      src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-      width: 3,
-      height: 4
+      src: dining,
+      width: 1875,
+      height: 1250
     },
     {
-      src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-      width: 3,
-      height: 4
+      src: hall,
+      width: 1875,
+      height: 1250
     },
     {
-      src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-      width: 3,
-      height: 4
+      src: kitchen,
+      width: 1875,
+      height: 1250
     },
     {
-      src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-      width: 4,
-      height: 3
+      src: kitchen2,
+      width: 1875,
+      height: 1250
     },
     {
-      src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-      width: 3,
-      height: 4
+      src: livingRoom,
+      width: 1875,
+      height: 1250
     },
     {
-      src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-      width: 4,
-      height: 3
+      src: masterBedroom,
+      width: 1875,
+      height: 1250
     },
     {
-      src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-      width: 4,
-      height: 3
+      src: study,
+      width: 1875,
+      height: 1250
     },
     {
-      src: "https://source.unsplash.com/XiDA78wAZVw/600x799",
-      width: 3,
-      height: 4
+      src: tvRoom,
+      width: 1875,
+      height: 1250
     },
     {
-      src: "https://source.unsplash.com/x8xJpClTvR0/800x599",
-      width: 4,
-      height: 3
+      src: tvRoom2,
+      width: 1875,
+      height: 1250
     },
     {
-      src: "https://source.unsplash.com/u9cG4cuJ6bU/4927x1000",
-      width: 4927,
-      height: 1000
+      src: view,
+      width: 1875,
+      height: 1250
     },
     {
-      src: "https://source.unsplash.com/qGQNmBE7mYw/800x599",
-      width: 4,
-      height: 3
+      src: view2,
+      width: 1875,
+      height: 1250
     },
     {
-      src: "https://source.unsplash.com/NuO6iTBkHxE/800x599",
-      width: 4,
-      height: 3
+      src: view3,
+      width: 1875,
+      height: 1250
     },
-    {
-      src: "https://source.unsplash.com/pF1ug8ysTtY/600x400",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
-      width: 4,
-      height: 3
-    }
+
   ];
   

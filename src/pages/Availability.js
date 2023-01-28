@@ -1,6 +1,7 @@
 import AvailabilityStyles from "./Availability.module.css";
+import { Link } from "react-router-dom";
 import PageStyles from './Page.module.css';
-import background from "../assets/img/sauna.jpeg";
+import background from "../assets/img/view.jpg";
 
 function Availability() {
   return (
@@ -15,9 +16,14 @@ function Availability() {
         <h2 class={PageStyles.headingSecondary} style={{textAlign: 'center'}}>
             For more information contact
         </h2>
-        <p>
+        <p className={AvailabilityStyles.email}>
             bookings@norfolkgerringong.com.au
         </p>
+        <button className="btn btn--black">
+            <Link to="/availability">
+              See listing on AirBnb
+            </Link>
+          </button>
         </div>
       </main>
     </div>

@@ -3,7 +3,8 @@ import { Photos } from "../components/Photos"
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import PageStyles from './Page.module.css';
-import background from "../assets/img/sauna.jpeg";
+import background from "../assets/img/view-3.jpg";
+
 
 function PhotoGallery() {
     const [currentImage, setCurrentImage] = useState(0);

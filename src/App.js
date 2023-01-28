@@ -6,7 +6,6 @@ import './App.css';
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
 import Gallery from "./pages/PhotoGallery";
 import DeadEnd from "./pages/DeadEnd";
 import Availability from "./pages/Availability";
